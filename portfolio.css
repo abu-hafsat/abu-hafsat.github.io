@@ -1,0 +1,162 @@
+#nav{
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 20px;
+    color: aliceblue;
+}
+
+body{
+    background-color: burlywood;
+}
+
+#header{
+    color: aliceblue;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 70px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+#containers{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container-1{
+    height: 500px;
+    width: 300px;
+    border: 2px solid aliceblue;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-2{
+    height: 400px;
+    width: 200px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#image{
+    height: 400px;
+    width: 200px;
+    border: 2px solid aliceblue;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    object-fit: cover;
+}
+
+#hero{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+#button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+#btn-about{
+    padding: 10px;
+    margin: 20px;
+    color: burlywood;
+    font-family: sans-serif;
+    font-weight: 300;
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 150px;
+    border: 0px;
+}
+
+#btn-project{
+    padding: 10px;
+    margin: 20px;
+    color: burlywood;
+    font-family: sans-serif;
+    font-weight: 300;
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 150px;
+    border: 0px;
+}
+#btn-contact{
+    padding: 10px;
+    margin: 20px;
+    color: burlywood;
+    font-family: sans-serif;
+    font-weight: 300;
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 150px;
+    border: 0px;
+}
+
+#text{
+    align-self: center;
+    height: 400px;
+    width: 400px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: burlywood;
+    padding: 20px;
+    
+}
+
+#text-header{
+    margin: 20px;
+    color: aliceblue;
+    
+}
+
+#tex{
+    margin: 10px;
+    font-size: 20px;
+    width: 400px;
+    border-radius: 60px;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+#tex-2{
+    width: 400px;
+    border-radius: 60px;
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+#tex-3{
+    width: 400px;
+    border-radius: 60px;
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#footer{
+    background-color: aliceblue;
+    color: burlywood;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 1rem;
+}

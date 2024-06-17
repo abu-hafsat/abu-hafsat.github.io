@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+    margin-top: 70px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+#description{
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    color: blueviolet;
+    margin: 30px;
+}
+
+#submit{
+    text-align: center;
+    width: 60px;
+    padding: 5px;
+    margin: 20px auto;
+    
+}
+
+#input{
+text-align: center;
+padding: 7px;
+width: 200px;
+margin: 20px auto;
+}
+
+#input-1{
+    padding: 7px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.menu{
+    display: flex;
+    max-width: 400px;
+    margin: 10px auto;
+    background-color: aliceblue;
+    justify-content: space-between;
+}
+

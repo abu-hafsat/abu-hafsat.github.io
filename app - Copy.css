@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    color: white;
+
+}
+
+h1{
+    text-align: center;
+    margin: 100px;
+}
+
+.btn{
+    width: 70px;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.5;
+    align-self: center;
+    border-radius: 20px;
+    justify-content: space-around;
+
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 350px;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.app-project{
+    width: 200px;
+    height: 300px;
+    border-radius: 50px;
+    border: 1px solid white;
+    display: flex;
+    background-color: gray;
+    opacity: 0.5;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+.app-image{
+    width: 200px;
+    height: 150px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    object-fit: cover;
+}
+
+.head{
+    text-align: center;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.desc{
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    font-size: 14px;
+
+}

@@ -1,0 +1,246 @@
+#header{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: yellow;
+    margin: 20px;
+    font-size: 2.5rem;
+}
+
+#pink{
+    color: pink;
+    font-style: italic;
+}
+#blue{
+    color: blue;
+}
+
+#letters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 400px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 50px auto;
+}
+
+#btn-1{
+    background-color: aquamarine;
+    border-radius: 20px;
+    border: 0px solid aquamarine;
+    padding: 5px;
+    font-size: 4rem;
+    color: blue;
+}
+#btn-2{
+    background-color: aquamarine;
+    border-radius: 20px;
+    border: 0px solid aquamarine;
+    padding: 5px;
+    font-size: 4rem;
+    color: aliceblue;
+}
+#btn-3{
+    background-color: aquamarine;
+    border-radius: 20px;
+    border: 0px solid aquamarine;
+    padding: 5px;
+    font-size: 4rem;
+    color: blueviolet;
+}
+
+#first-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 800px;
+    margin: 50px auto;
+
+}
+
+#second-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+#third-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+#img-1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: none;
+}
+
+#img-2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: none;
+}
+
+#img-3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: none;
+}
+
+#unlist-1 {
+list-style: none;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin: 10px;
+display: none;
+}
+
+#unlist-2 {
+list-style: none;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin: 10px;
+display: none;
+}
+
+#unlist-3 {
+list-style: none;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin: 10px;
+display: none;
+}
+
+#tex-1 {
+    color: red;
+}
+#tex-2 {
+    color: blue;
+}
+
+#tex-3 {
+    color: brown;
+}
+
+#list-A {
+    padding: 5px;
+    color: red;
+}
+#list-B {
+    padding: 5px;
+    color: red;
+}
+#list-C {
+    padding: 5px;
+    color: red;
+}
+
+#list-2C {
+    padding: 5px;
+    color: blue;
+}
+#list-2A {
+    padding: 5px;
+    color: blue;
+}
+#list-2B {
+    padding: 5px;
+    color: blue;
+}
+
+#list-3A {
+    padding: 5px;
+    color: brown;
+}
+#list-3B {
+    padding: 5px;
+    color: brown;
+}
+#list-3C {
+    padding: 5px;
+    color: brown;
+}
+
+
+#good {
+    height: 100px;
+    width: 100px;
+    display: none;
+}
+
+#fail {
+    height: 100px;
+    width: 100px;
+    display: none;
+}
+#good-2 {
+    height: 100px;
+    width: 100px;
+    display: none;
+}
+
+#fail-2 {
+    height: 100px;
+    width: 100px;
+    display: none;
+}
+#good-3 {
+    height: 100px;
+    width: 100px;
+    display: none;
+}
+
+#fail-3 {
+    height: 100px;
+    width: 100px;
+    display: none;
+}
+
+
+#img-sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+#img-sect-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+#img-sect-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+
+#result-sect{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    font-size: 1.5rem;
+}
+
+#welcome-img {
+    height: 300px;
+    width: 400px;
+}
+#cartoon{
+    display: flex;
+    justify-content: center;
+}

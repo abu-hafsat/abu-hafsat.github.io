@@ -1,0 +1,221 @@
+body {
+    background-color: rgb(14, 14, 0);
+    padding: 0px;
+  }
+  
+  #image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  }
+  
+  #image-side{
+    width: 40%;
+    height: 100vh;
+    border: 2px solid white;
+    margin: 0px;
+    position: relative;
+  }
+  
+  #image-side .contact-section {
+    position: absolute;
+    top: 0;
+    bottom: 10px;
+    background: gray;
+    background: gray;
+    opacity: 0.5;
+    display: flex;
+  }
+  
+  .contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90vh;
+    margin: 30px 10px;
+    width: 150px;
+  }
+  
+  .contact{
+    width: 150px;
+    height: 80px;
+    color: white;
+    padding: 10px;
+  }
+  
+  .cnt-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 0px 20px;
+    padding: 0px 10px;
+    object-fit: cover;
+  }
+  
+  .contact-text{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  /*.contact-2{
+    width: 100px;
+    height: 100px;
+    color: white;
+    margin: 20px;
+    border-radius: 50px;
+  }
+  
+  .contact-3{
+    width: 100px;
+    height: 100px;
+    color: white;
+    margin: 20px;
+    border-radius: 50px;
+  }
+  */ 
+  
+  #info-side{
+    width: 60%;
+    height: 100vh;
+    border: 2px solid white;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  
+  #header-2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  section{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #header{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 50px;
+  }
+  
+  #description{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 0px;
+  
+  }
+  
+  #projects-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 700px;
+    height: 250px;
+    align-self: center;
+  }
+  
+  .projects-1{
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 200px;
+    align-self: flex-end;
+  }
+  .projects-2{
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 200px;
+    align-self: flex-start;
+  }
+  .projects-3{
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 200px;
+    align-self: flex-end;
+    
+  }
+  
+  .prj-pic {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .prj-pic-2{
+    display: none;
+  }
+  
+  .prj-pic-3{
+    display: none;
+  }
+  
+  .btn-1{
+    margin: 10px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+    cursor: pointer;
+  }
+  .btn{
+    margin: 20px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  #skills-section{
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: end;
+  
+  }
+  
+  #skills-header{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+  
+  }
+  
+  .skills{
+    padding: 7px;
+    background-color: gray;
+    color: white;
+    margin: 0px 10px;
+    border-radius: 10px;
+    align-items: flex-end;
+  
+  }
+  
+  /*   .container {
+          position: relative;
+          max: width 100%;; /* Maximum width */
+          margin: /* Center it */
+        }
+        
+     /*   .container .content {
+          text-align: center;
+          position: absolute; /* Position the background text */
+          bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+          top:0;
+          background: rgb(0, 0, 0); /* Fallback color */
+          background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+          color: #f1f1f1; /* Grey text */
+          width: 100%; /* Full width */
+          padding: 20px; /* Some padding */
+        } */

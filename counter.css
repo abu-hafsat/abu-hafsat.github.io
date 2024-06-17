@@ -1,0 +1,95 @@
+#heading{
+    text-align: center;
+    color: blue;
+    margin: 50px auto;
+    font-family: roboto, sans-serif;
+    font-style: italic;
+}
+
+#clock{
+    display: flex;
+    max-width: 100px;
+    margin: 50px auto;
+font-size: 2rem;
+}
+
+#button{
+    font-size: ;
+    text-align: center;
+}
+
+#set{
+    padding: 10px;
+    margin: 5px;
+}
+#stop{
+    padding: 10px;
+    margin: 5px;
+
+}
+#left{
+    padding: 10px;
+    margin: 5px;
+
+}
+#right{
+    padding: 10px;
+    margin: 5px;
+}
+
+#head{
+    text-align: center;
+    color: blue;
+    margin-top: 50px;
+}
+
+#questions{
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.seg{
+    margin: 30px;
+}
+
+#submit{
+    padding: 5px;
+    color: blue;
+    background-color: ;
+}
+
+.sub-q{
+    margin: 15px 0px;
+    float: right;
+    padding: 5px;
+    color: blue;
+}
+
+#header{
+    text-align: center;
+    color: blue;
+    margin: 50px 0px;
+}
+
+#value{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.btn-decrease{
+    text-align: center; 
+    padding: 5px;
+    margin: 10px;
+}
+.btn-reset{
+    text-align: center; 
+    padding: 5px;
+    margin: 10px;
+}
+.btn-increase{
+    text-align: center; 
+    padding: 5px;
+    margin: 10px;
+    
+}
